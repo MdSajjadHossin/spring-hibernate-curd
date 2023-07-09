@@ -31,7 +31,7 @@ public class CruddemoApplication {
 		studentDAO.save(tempStudent);
 
 		//display id of the saved student
-		System.out.println("Saved student. Generated id: " + tempStudent.getId());
+		System.out.println("Saved student. Generated id: " + tempStudent.getId()  );
 
 	}
 }
